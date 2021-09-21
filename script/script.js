@@ -78,6 +78,8 @@ hold_score.addEventListener("click", function () {
 new_Game.addEventListener("click", function () {
   finalScore__0__El.textContent = 0;
   finalScore__1__El.textContent = 0;
+  currentScore__0__El.textContent = 0;
+  currentScore__1__El.textContent = 0;
   dice_El.classList.add("hidden");
   let currentScore = 0;
   let activePlayer = 0;
